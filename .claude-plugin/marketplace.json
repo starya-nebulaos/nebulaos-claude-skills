@@ -1,0 +1,10 @@
+{
+  "name": "nebulaos-claude-skills",
+  "description": "Official Claude Code skills for NebulaOS SDK development",
+  "plugins": [
+    {
+      "name": "nebulaos",
+      "path": "."
+    }
+  ]
+}
