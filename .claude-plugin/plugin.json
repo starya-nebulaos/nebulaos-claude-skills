@@ -1,7 +1,7 @@
 {
   "name": "nebulaos",
   "description": "Skills for developing AI agents with NebulaOS SDK - includes CLI workflows, debugging, LLM Gateway, and RAG management",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "Starya AI"
   },
