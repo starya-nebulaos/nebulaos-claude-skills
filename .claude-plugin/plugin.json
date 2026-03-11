@@ -2,7 +2,9 @@
   "name": "nebulaos",
   "description": "Skills for developing AI agents with NebulaOS SDK - includes CLI workflows, debugging, LLM Gateway, and RAG management",
   "version": "1.0.0",
-  "author": "Starya AI",
+  "author": {
+    "name": "Starya AI"
+  },
   "homepage": "https://github.com/nebulaos/claude-code-skills",
   "keywords": ["nebulaos", "ai-agents", "sdk", "cli", "llm", "rag"]
 }
