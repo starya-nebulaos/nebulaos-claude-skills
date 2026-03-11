@@ -156,6 +156,7 @@ pnpm dev
 # Terminal 2
 nebulaos resources list
 nebulaos exec run <id> --input '{"x":"y"}'
+nebulaos exec run <id> -i '"msg"' -m conv-123  # conversa com contexto
 nebulaos exec logs <exec-id>
 ```
 
@@ -169,6 +170,7 @@ nebulaos resources promote <id>
 
 # Execuções
 nebulaos exec run <id> --input '{"prompt":"x"}'
+nebulaos exec run <id> -i '"Oi"' -m session-123     # com memória
 nebulaos exec list --page-size 10
 nebulaos exec logs <exec-id>
 

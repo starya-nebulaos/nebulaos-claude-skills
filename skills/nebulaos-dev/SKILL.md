@@ -55,6 +55,10 @@ nebulaos resources unarchive <id>    # restaurar
 nebulaos exec run <resource-id>
 nebulaos exec run <resource-id> --input '{"prompt":"Olá"}'
 nebulaos exec run <resource-id> --input '{"data":{"name":"João"}}'
+
+# Conversa com contexto (multi-turn)
+nebulaos exec run <resource-id> -i '"Oi"' -m session-123
+nebulaos exec run <resource-id> -i '"Qual foi minha msg?"' -m session-123
 ```
 
 ### Ver Resultado
@@ -90,6 +94,10 @@ nebulaos resources list --type agent
 
 # 4. Executar
 nebulaos exec run meu_agent --input '{"prompt":"teste"}'
+
+# 4b. Ou testar conversa multi-turn
+nebulaos exec run meu_agent -i '"Oi"' -m test-123
+nebulaos exec run meu_agent -i '"Continua..."' -m test-123
 
 # 5. Ver resultado
 nebulaos exec get <exec-id>
